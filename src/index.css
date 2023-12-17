@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8e9dd;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(25, 47%, 15%);
+}
+
+p {
+  color: hsl(28, 10%, 53%);
+}
+
+.soft-red {
+  background-color: hsl(10, 79%, 65%);
+}
+
+canvas:hover {
+  cursor: pointer;
+}
